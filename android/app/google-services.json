@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "198440338495",
+    "project_id": "fir-32e01",
+    "storage_bucket": "fir-32e01.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:198440338495:android:03f65e99262a413d60a48a",
+        "android_client_info": {
+          "package_name": "com.example.job_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDljkDJhp74u3ds4Pkj2J4b4iuKc38klXg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
