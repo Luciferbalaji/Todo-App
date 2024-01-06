@@ -1,6 +1,7 @@
+import 'package:Todo/button.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'package:job_app/button.dart';
+
 
 class dailog extends StatelessWidget {
   final  controller;
@@ -12,7 +13,7 @@ dailog({super.key,required this.controller,required this.onsave,required this.on
   Widget build(BuildContext context) {
     return AlertDialog(
       content: Container(
-        height: 120,
+        height: 140,
         child:  Column(
           children: [
             TextField(

@@ -1,8 +1,8 @@
+import 'package:Todo/dailog.dart';
+import 'package:Todo/db.dart';
+import 'package:Todo/todo.dart';
 import 'package:flutter/material.dart';
 import 'package:hive_flutter/adapters.dart';
-import 'package:job_app/dailog.dart';
-import 'package:job_app/db.dart';
-import 'package:job_app/todo.dart';
 
 class SigiPage extends StatefulWidget {
   SigiPage({Key? key}) : super(key: key);
@@ -38,7 +38,9 @@ class _SigiPageState extends State<SigiPage> {
     setState(() {
       db.tooodo.add([_controller.text, false]);
       _controller.clear();
+      
     });
+    Navigator.of(context).pop();
   }
 
   void alert() {
